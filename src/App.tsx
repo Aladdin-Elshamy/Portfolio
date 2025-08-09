@@ -9,7 +9,7 @@ import './App.css'
 function App() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="portfolio-theme">
-      <div className="min-h-screen bg-background text-foreground">
+      <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
         <Navigation />
         <main className='px-4 sm:px-6 lg:px-0'>
           <HeroSection />
