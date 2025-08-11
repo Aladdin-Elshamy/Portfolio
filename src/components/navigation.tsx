@@ -49,15 +49,15 @@ export function Navigation() {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b"
+      className="fixed top-0 left-0 right-0 z-50 bg-background/75 backdrop-blur-sm border-b border-border/60 shadow-sm"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="text-xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent"
+            className="text-xl bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent font-face-gm"
           >
-            Portfolio
+            Aladdin Elshamy
           </motion.div>
 
           {/* Desktop Navigation */}

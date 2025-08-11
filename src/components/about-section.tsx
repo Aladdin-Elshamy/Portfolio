@@ -40,8 +40,8 @@ const experiences = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-muted/30">
-      <div className="container mx-auto text-left">
+    <section id="about" className="py-20 bg-muted/30 ">
+      <div className="container mx-auto text-left px-4 sm:px-6 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}

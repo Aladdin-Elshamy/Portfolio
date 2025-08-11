@@ -30,7 +30,7 @@ export function Footer() {
             onClick={scrollToTop}
             variant="outline"
             size="icon"
-            className="rounded-full"
+            className="rounded-full border-1 border-primary/20 shadow-sm"
           >
             <ArrowUp className="w-4 h-4 absolute" />
           </Button>

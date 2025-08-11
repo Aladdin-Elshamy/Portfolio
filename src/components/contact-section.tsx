@@ -72,7 +72,7 @@ export function ContactSection() {
 
   return (
     <section id="contact" className="py-20 bg-muted/30">
-      <div className="container mx-auto text-left">
+      <div className="container mx-auto text-left px-4 sm:px-6 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -185,6 +185,7 @@ export function ContactSection() {
                         value={formData.name}
                         onChange={handleChange}
                         required
+                        className="border-border/80"
                         placeholder="Your name"
                       />
                     </div>
@@ -197,6 +198,7 @@ export function ContactSection() {
                         value={formData.email}
                         onChange={handleChange}
                         required
+                        className="border-border/80"
                         placeholder="your.email@example.com"
                       />
                     </div>
@@ -210,6 +212,7 @@ export function ContactSection() {
                       value={formData.subject}
                       onChange={handleChange}
                       required
+                      className="border-border/80"
                       placeholder="What's this about?"
                     />
                   </div>
@@ -222,6 +225,7 @@ export function ContactSection() {
                       value={formData.message}
                       onChange={handleChange}
                       required
+                      className="border-border/80"
                       placeholder="Tell me about your project or just say hello!"
                       rows={6}
                     />

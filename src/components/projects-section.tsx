@@ -23,7 +23,7 @@ const projects: Project[] = [
     longDescription: 'Souq is a full-stack, responsive e-commerce product management platform that allows users to create, edit, and delete products seamlessly. The application features a modern, user-friendly interface with support for both dark and light themes. It is built with a robust tech stack to ensure scalability, performance, and an excellent user experience.',
     image: souqImage,
     technologies: ['React', 'TypeScript', 'Zustand', 'Tailwind CSS', 'Chakra UI', 'Node.js', 'MongoDB', 'Express.js'],
-    liveUrl: 'https://souq-production.up.railway.app',
+    liveUrl: 'https://souq-84z1.onrender.com',
     githubUrl: 'https://github.com/Aladdin-Elshamy/Souq',
     challenges: [
       'Designing a scalable architecture to manage product data efficiently',
@@ -82,7 +82,7 @@ const projects: Project[] = [
     longDescription: 'A full-stack blog application where users can sign up, sign in, create, edit, and delete blogs, as well as read and search for blogs by author name, tags, or title. Built with React, Tailwind CSS, Node.js, and Express.',
     image: blogVerse,
     technologies: ['React', 'Tailwind CSS', 'TypeScript','NodeJs','Express.js', 'MongoDB'],
-    liveUrl: 'https://blog-verse-production.up.railway.app/',
+    liveUrl: 'https://blog-verse-06tc.onrender.com/',
     githubUrl: 'https://github.com/Aladdin-Elshamy/Blog-Verse',
     challenges: [
       'Implementing secure and efficient user authentication',
@@ -297,7 +297,7 @@ export function ProjectsSection() {
 
   return (
     <section id="projects" className="py-20">
-      <div className="container mx-auto text-left">
+      <div className="container mx-auto text-left px-4 sm:px-6 lg:px-12">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}

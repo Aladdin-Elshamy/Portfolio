@@ -12,7 +12,8 @@ export function HeroSection() {
   }
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center overflow-hidden">
+    
+    <section id="home" className="min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-12">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-emerald-500/5" />
       
       <div className="text-center relative z-10">
