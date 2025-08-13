@@ -53,7 +53,7 @@ const projects: Project[] = [
     longDescription: "A frontend project that replicates the interface and basic functionalities of OpenAI's ChatGPT. This project allows users to interact with a simulated chatbot experience similar to ChatGPT, showcasing how you can implement dynamic conversational UIs using React.",
     image: chatGptClonImage,
     technologies: ['HTML','CSS','JavaScript','React', 'Firebase','Tailwind CSS'],
-    liveUrl: 'https://chatgpt-clone-aladdin.vercel.app/',
+    liveUrl: 'https://www.dropbox.com/scl/fi/htzsjjk41dbzhntiej3oe/1009.mp4?rlkey=k81t8v0cgj6xz71lwy26p543x&st=34jhe1i7&dl=0',
     githubUrl: 'https://github.com/Aladdin-Elshamy/ChatGPT-Clone',
     challenges: [
       'Mimicking the ChatGPT UI and ensuring responsiveness across devices',
